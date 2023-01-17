@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.github.dach83.customcompasables'
+    namespace 'com.github.dach83.customcomposables'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.github.dach83.customcompasables"
+        applicationId "com.github.dach83.customcomposables"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -49,7 +49,7 @@ android {
 dependencies {
     // Core
     implementation "androidx.core:core-ktx:$android_core_version"
-    
+
     // Lifecycle
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
 
