@@ -1,9 +1,9 @@
 package com.github.dach83.customcomposables.core
 
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import com.github.dach83.customcomposables.components.otpinputfield.OtpTextFieldScreen
 
 @Composable
 fun MainScreen() {
-    Text(text = "MainScreen")
+    OtpTextFieldScreen()
 }
